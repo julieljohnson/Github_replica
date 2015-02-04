@@ -1,0 +1,132 @@
+$font: 'Cabin', sans-serif;
+$blue: #076CB9;
+$darkgray: #272A2C;
+$lightgray: #32383C;
+
+
+body {
+    font-family: $font;
+}
+
+
+.wrapper {
+    max-width: 800px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-bottom: 30px;
+}
+
+.picture {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+
+}
+.reposec, .publicsec {
+    display: none;
+
+}
+.active {
+    display: inline;
+    width:70%;
+
+}
+.left-column {
+    width: 25%;
+    display: inline;
+    padding: 0;
+    margin-top: 20px;
+    float: left;
+}
+
+.right-column {
+    float: right;
+    width: 70%;
+    display: inline;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 15px;
+
+
+
+    .top-tabs ul {
+        display: inline-block;
+        width: 40%;
+        margin-top: 20px;
+        padding: 0;
+
+
+        li {
+            list-style-type: none;
+            display: inline-block;
+
+
+            a {
+            text-decoration: none;
+            color: $lightgray;
+
+            &:hover {
+                color: black;
+
+            }
+
+            }
+        }
+    }
+}
+
+.top-tabs-right {
+    display: inline-block;
+    float: right;
+    width: 25%;
+    padding: 0;
+    margin-top: 20px;
+
+}
+.repositories {
+    width: 70%;
+    float: right;
+}
+.event {
+    width: 70%;
+    float: right;
+}
+.language {
+    float: right;
+    display: inline-block;
+    font-size: 10px;
+    color: $darkgray;
+}
+.name {
+    font-size: 15px;
+    color: $blue;
+
+    a {
+        text-decoration: none;
+        color: $blue;
+
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
+.reporight {
+    color: $lightgray;
+    font-size: 12px;
+}
+.repositories {
+    line-height: 10px;
+}
+
+.names {
+    line-height: 10px;
+    border-bottom: 1px solid gray;
+
+    .username {
+        color: $lightgray;
+
+
+    }
+}
